@@ -1,0 +1,72 @@
+---
+title: "Labor Rights and Global Supply Chains"
+subtitle: "An Annotated Bibliography"
+output: pdf_document
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, results="asis")
+library(RefManageR)
+bib <- ReadBib("labor-rights.bib", check=FALSE)
+myopts <- BibOptions(bib.style = "authoryear", style="latex", first.inits=FALSE, max.names = 20)
+```
+
+## Private Regulation and FACB Rights
+
+\textbf{
+```{r Anner2012}
+bib["anner2012"]
+```
+}
+
+Anner argues that corporate-sponsored inspections focus primarily on minimal labor standards like workplace safety because they are concerned about protecting their reputations. But they ignore Freedom of Association (FA) rights because allowing unions to operate would undermine corporate control over supply chains. Anner tests this argument by coding 805 factory audits by the [Fair Labor Association (FLA)](https://www.fairlabor.org/) that occurred between 2002 and 2010 and through an analysis of three case studies: Russell Athletic in Honduras; Apple in China; and worker rights monitoring in Vietnam. 
+
+Anner points out that the difference between FACB and other issues is one between rights and standards. Issues like a minimum wage, child and overtime pay are *standards* that can be addressed directly through government regulations and stakeholder agreements. The freedom to join a union, strike or engage in collective bargaining are *rights* that "do not dictate outcomes but guarantee procedures that mitigate the inherent power imbalance in the employment relationship."  
+
+Anner notes that CSR programs are vulnerable to regulatory capture, or the ability of corporations to manipulate the agencies that are supposed to regulate them. This happens because corporate representatives sit on the executive boards of these programs, because the programs depend on corporate support, because of the threat of exit (ability of corporations to exit the program and choose a different one) and because labor unions do not usually participate in the programs.
+
+According to Anner, "Labor unions are highly critical of most CSR initiatives, arguing that the real goal is to replace not only the state but also the union’s role in defending workers’ interests" (p. 613). 
+
+Anner highlights two CSR programs in his review--[WRAP (Worldwide Responsible Apparel Production)](https://wrapcompliance.org/) and [FLA](https://www.fairlabor.org/). WRAP was founded by the [American Apparel and Footwear Association](https://www.aafaglobal.org/) and includes neither NGOs nor unions. The FLA does not include unions either but has a number of important anti-sweatshop NGOs on its board. The FLA is also one of the largest CSR programs in the garment sector. The FLA posts all of its factory audits [online](https://fla.fairfactories.org/web/Information/CustomReports/FactoriesReport) as part of its [transparency initiative](https://www.fairlabor.org/transparency). They also have a list of investigations initiated by third-party complaints, which are mainly by unions, as part of their [safeguards initiative](https://www.fairlabor.org/transparency/safeguards). 
+
+Eyeballing these FLA reports, it the number seems to have increased over the years. FLA randomly audits about 5% of its affiliate's factories each year. There are currently about 4,900 reports available on the website. Is it possible that the composition of the audits has also changed as well, perhaps in response to Anner's critiques? 
+
+Starting on p. 615 Anner provides an interesting history of the formation of the FLA and how a living wage, independent monitoring and FA rights were considered but rejected by corporations and how unions walked abandoned the agreement as a result. 
+
+In his analysis of FLA audits, Anner finds that FA rights violations constitute a small minority of reported violations. The bulk of violations fall into the categories of wages and benefits (31%) or health and safety (40%). FA violations constitute just 5% of reported violations. Forced and child labor constitute 7% and discrimination and harassment 9%. The remaining 8% of violations fall into the category of "code awareness."     
+
+Anner reasons that the small number of violations cannot reflect reality given the high level of FA rights violations reported in other sources, like the CIRI and Kucera labor rights indexes or state department reports highlighting violations in particular countries. There is also a disconnect between violations reported by third-parties and the audit reports as well as a seeming reluctance to investigate FA violations reported by third parties (who are mainly unions). Of third-party complaints, FA violations constitute 32% of all reported violations and wages, health and safety 13% and wages, benefits and hours 27%. 
+
+**Russell Athletic case study**: Russell Athletic closed a factory in Honduras and claimed the closure was due to a decline in demand for fleece products. Two auditors hired by the company found no written evidence that the company closed the factory due to union activity and placed the burden of proof on the workers in violation of ILO standards. A ILO consultant, however, found substantial evidence of anti-union activity and concluded that the closure was indeed a response to unionization. FLA dismissed the work of this consultant and found in favor of Russell Athletic. Subsequently, pressure from activists and universities forced FLA and Russell Athletic to reverse course by reopening the factory, rehiring the workers and placing Russell Athletic under review. 
+
+**Vietnam and Better Work**: Anner discusses the challenge of auditing labor standards in authoritarian countries where FA rights are heavily restricted by law. He compares the approach of Better Work with FLA. FLA looks for functioning workers' councils and accepts these as substitutes for independent unions. In contrast, Better Work has a more detailed coding scheme that separates out collective bargaining, the right to strike and the right to join a union and finds a much higher rater of noncompliance when it comes to FA rights (e.g. 100%). 
+
+**Apple and Foxconn in China**: Anner analyzes FLA's audit of Foxconn, Apple's primary supplier in China. The 197-page audit finds numerous health and safety violations and some FA violations but ignores some key issues. One is Apple's sourcing practices, which place extreme demands on workers at the factory. Another is state control of unions. A third is the local practice of electing managers to the union board, which compensates in some ways for the workers' inability to strike. While the report calls for an end to management control of the union, it does not remedy the power imbalance caused by an inability to strike. 
+
+Anner discusses the Workers Rights Consortium (WRC) as an alternative to FLA. The WRC was formed by unions and NGOs that left the FLA following its refusal to incorporate FA rights. The WRC relies on third-party complaints and finds a much higher level of FA rights violations in factories that it audits. But it has a lot fewer resources that FLA. 
+
+\textbf{
+```{r Bair2020}
+bib["bair2020"]
+```
+}
+
+The article looks at the success of two initiatives designed to improve worker health and safety in post-Rana Plaza Bangladesh: the Sustainability Compact and the Bangladesh Accord. The Accord was a progressive private regulatory initiative that emphasized co-governance between workers and employers as well as freedom of association and collective bargaining (FACB) rights. The Sustainability Compact was a public regulatory initiative that covered factories not included in the two major private regulatory initiatives in place (The Accord or the Alliance). The authors use the comparison to test the idea that private regulatory initiatives either complement or substitute for public regulation. They find, instead, that the more minimalist public initiative competed with and undermined the more effective and progressive Accord, which was not supported by garment manufacturers or the government.    
+
+The study is based on 61 interviews with government officials in Bangladesh and the U.s. as well as representatives from the ILO, BGMEA, local unions, international labor NGOs, industry experts and stakeholders participating in the Accord and the Alliance. The interviews were conducted between 2014 and 2019.
+
+The authors describe the Accord as "innovating co-governed private regulation." The agreement encompassed two global trade union federations (GTUFs) (IndustriALL and UNI) and eight Bangladeshi trade unions, 200 apparel brands and two NGOs (Clean Clothes and WRC). The emphasis of the Accord was on building safety but it was innovative in that its steering committee included equal representation for labor and companies, because of its unprecedented level of transparency and because it enforces commitments through binding arbitration. The law also undermined the provisions of the Accord which called for direct election of workers to safety committees by leaving in place provisions that required safety committees to be appointed by Participation Committees (PCs), which are heavily influenced by management. 
+
+The Compact required the Bangladesh government to reform its labor laws and to strengthen respect for FACB rights. The parliament approved Labor Law Bill 2013 which included major amendments to the 2006 Bangladesh Labor Act, but implementation was slow and enforcement lacking. Specifically, the government left in place restrictions on organizing in EPZs and required workers to organize 20% of the workers in a factory to achieve recognition (a high bar given the large size of factories). The government also made it difficult to achieve recognition in practice by continually rejecting valid applications. 
+
+One important point the authors make is that many Bangladesh parliament members are garment manufacturers and the garment manufacturer's association (BGMEA) is incredibly powerful. It would be interesting to look at this cross-nationally--how the effectiveness of public or private regulation depends on the political influence of garment manufacturers, which is of course related to the size of the garment sector relative to a country's exports or GDP.   
+
+Ultimately the government and BGMEA went on the offensive against the Accord, dooming its future prospects. In may 2018, the High Court issued a restraining order against the Accord while the government and BGMEA demanded that the Accord to close its Bangladesh office. ultimately an MoU was signed that required the Accord to hand over its operations to government-run RMG Sustainability Council and also permitted BGMEA representatives to establish a presence in Accord offices to ensure a smooth transition.
+
+
+## The Effectiveness of Monitoring
+
+```{r Locke2007}
+bib["locke2007"]
+```
+
