@@ -1,0 +1,73 @@
+---
+title: "what_i_tried"
+author: "Emmanuel Teitelbaum"
+date: "5/24/2022"
+output: html_document
+---
+
+
+Trying to get BibLaTeX Chicago to work: 
+
+header-includes: 
+  usepackage[backend=biber]{biblatex-chicago}
+  
+output: 
+  pdf_document:
+    citation_package: biblatex-chicago
+    # citation_package: natbib
+biblatexoptions: [backend = biber, skipbib = true]
+# biblio-style: chicago
+
+output: 
+  pdf_document:
+    citation_package: biblatex
+    # citation_package: natbib
+biblatexoptions: [backend = biber, skipbib = true]
+biblio-style: chicago
+
+
+title: "Labor Rights and Global Supply Chains"
+# subtitle: "An Annotated Bibliography"
+# geometry: margin = 1in
+output: 
+  pdf_document:
+    citation_package: biblatex
+    # citation_package: natbib
+biblatexoptions: [backend = biber]
+biblio-style: chicago-authordate
+# citation-style: 
+bibliography: labor-rights.bib
+
+This gives me the error "! LaTeX Error: Can be used only in preamble."
+
+title: "Labor Rights and Global Supply Chains"
+# subtitle: "An Annotated Bibliography"
+# geometry: margin = 1in
+output: pdf_document
+    # citation_package: biblatex
+    # citation_package: natbib
+# biblatexoptions: [backend = biber]
+# biblio-style: chicago-authordate
+# citation-style: 
+bibliography: labor-rights.bib
+header-includes: 
+  \usepackage[backend=biber, style = chicago-authordate]{biblatex}
+
+Same error: "! LaTeX Error: Can be used only in preamble."
+
+
+title: "Labor Rights and Global Supply Chains"
+# subtitle: "An Annotated Bibliography"
+# geometry: margin = 1in
+output: 
+  pdf_document:
+    citation_package: biblatex
+    # citation_package: natbib
+# biblatexoptions: [backend = biber]
+# biblio-style: chicago-authordate
+# citation-style: 
+bibliography: labor-rights.bib
+header-includes: 
+  \usepackage[backend=biber, style = chicago-authordate]{biblatex}
+
+Same error: "! LaTeX Error: Can be used only in preamble."

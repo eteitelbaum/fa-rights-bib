@@ -1,0 +1,62 @@
+---
+title: "Labor Rights and Global Supply Chains"
+subtitle: "An Annotated Bibliography"
+geometry: margin = 1in
+output: 
+  pdf_document:
+    citation_package: biblatex
+    # citation_package: natbib
+biblatexoptions: [backend = biber, skipbib = true, labeldateparts = true, isbn = false, annotation = false, url = false]
+#biblatexoptions: [backend = biber, skipbib = true, pagetracker=true, autocite=inline, alldates=comp, labeldateparts=true, citetracker=true, uniquename=minfull, useeditor=true, usetranslator=true, usenamec=true, alltimes=12h, urltime=24h, datecirca=true, datezeros=false, dateuncertain=true, timezones=true, compressyears=true, ibidtracker=constrict, sorting=cms, punctfont, cmslos=true, nodates, uniquelist=minyear, maxbibnames=10, minbibnames=7, sortcase=false, abbreviate=false, dateabbrev=false, avdate=true]
+# biblio-style: chicago-notes
+biblio-style: chicago-authordate
+# citation-style: 
+bibliography: labor-rights.bib
+urlcolor: blue
+fontsize: 12pt
+header-includes: 
+  - \usepackage[american]{babel}
+  # - \usepackage{doi}
+  # - \usepackage[backend=biber, style = chicago-authordate]{biblatex}
+  # - \usepackage{texlive-bibtex-extra}
+  # - \usepackage{chicago}
+  # - \usepackage{natbib}
+  # - \usepackage{bibentry}
+  # - \bibliographystyle{plain}
+  # - \nobibliography{labor-rights.bib}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, results="asis")
+library(RefManageR)
+bib <- ReadBib("labor-rights.bib", check=FALSE)
+#library(rcrossref)
+#library(bibtex)
+#library(bib2df)
+#bib <- bib2df("labor-rights.bib")
+##apa_style <- tools::bibstyle("apa")
+#myopts <- BibOptions(bib.style = "authoryear", style = "latex", first.inits=FALSE, max.names = 20)
+```
+
+### Can you change the citation style and make the font a little bigger? 
+### Garbled text in some abstracts. How to fix? 
+### Create a template for annotated bib? (Study syllabus template, alter to include Chicago style, post) 
+### This is pretty nice. Only thing is: what happens when I have a web-based article that I want to include, since I disabled urls? Will it still show the urls for websites? 
+### Also, do I want to keep the ISBN for books (but delete ISSN for articles?) Would that provide a link to the book somehow? 
+### Not able to get a space between references anymore using \\; investigate \break, \newline and \bigbreak.
+
+\fullcite{Anner2017} 
+
+```{r Anner_abstract}
+cat("Abstract: ")
+cat(bib["Anner2017"]$abstract)
+```
+
+Notes: Now I would like to write some notes on this article.
+
+```{r crossref_test}
+#cr_cn(dois = "10.1111/1758-5899.12385", format = "text", style = "american-political-science-association")
+#anner_2017 <- cr_cn(dois = "10.1111/1758-5899.12385", format = "text", style = "american-political-science-association")
+#cat(anner_2017)
+```
+

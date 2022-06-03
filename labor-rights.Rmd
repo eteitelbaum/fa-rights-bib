@@ -1,24 +1,38 @@
 ---
 title: "Labor Rights and Global Supply Chains"
 subtitle: "An Annotated Bibliography"
-output: pdf_document
+author: "Emmanuel Teitelbaum"
+geometry: margin = 1in
+output: 
+  pdf_document:
+    citation_package: biblatex
+biblatexoptions: [backend = biber, skipbib = true, labeldateparts = true, isbn = false, annotation = false, url = false, date = year]
+biblio-style: chicago-authordate
+bibliography: labor-rights.bib
+urlcolor: blue
+fontsize: 12pt
+header-includes: 
+  - \usepackage[american]{babel}
 ---
 
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(echo = FALSE, results="asis")
 library(RefManageR)
 bib <- ReadBib("labor-rights.bib", check=FALSE)
-myopts <- BibOptions(bib.style = "authoryear", style="latex", first.inits=FALSE, max.names = 20)
 ```
 
+# Interaction of Private and Public Regulation
 
-## Interaction of Private and Public Regulation
+\fullcite{Amengual2010}
 
-\textbf{
+\begin{quote}
+Abstract: 
 ```{r Amengual2010}
-bib["amengual2010"]
+cat(bib["Amengual2010"]$abstract)
 ```
-}
+\end{quote}
+
+*Summary:*
 
 This article explores the interaction of private and public regulation of labor standards through a case study of a garment manufacturer in the Dominican Republic (DR). The main finding is that private regulation by the company compliments rather than displaces regulation by the Labor Secretariat (*Secretaría de Estado de Trabajo* or SET). 
 
@@ -26,33 +40,63 @@ The private inspections done by the company in the case study and the state insp
 
 Additionally, private inspections freed up time and resources for the SET so that it could conduct inspections of factories outside of the EPZs, which tended to have worse labor conditions. Private inspections also forced factories in the EPZs to comply with local labor laws, thereby increasing the reach of the SET. 
 
-However, the analysis also uncovers differential impact of private versus SET inspections.Factory owners were more likely to respond to demands by the buyer to address health and safety violations because the threat of losing the buyer's business was more compelling than the meager fine imposed by the labor inspectorate. The company rarely cut ties with a producer but effectively used pedagogy (training) to improve compliance.        
+However, the analysis also uncovers differential impact of private versus SET inspections.Factory owners were more likely to respond to demands by the buyer to address health and safety violations because the threat of losing the buyer's business was more compelling than the meager fine imposed by the labor inspectorate. The company rarely cut ties with a producer but effectively used pedagogy (training) to improve compliance.  
 
-\textbf{
+\bigbreak
+
+\fullcite{Amengual2016}
+
+\begin{quote}
+Abstract: 
 ```{r Amengual2016}
-bib["amengual2016"]
+cat(bib["Amengual2016"]$abstract)
 ```
-}
+\end{quote}
+
+*Summary:*
 
 This is a study of the Better Work program in Indonesia. It seeks to understand how transnational regulations/institutions reinforce local regulations/institutions. The authors argue that transnational institutions reinforce local institutions when "two conditions jointly occur: unions mobilize to activate state institutions, and transnational regulators have support to resolve ambiguities in formal rules in ways that require firms to engage with constraining institutions."  
 
+# The Alliance and the Accord 
 
-## The Alliance and the Accord 
+\fullcite{Ahlquist2021}
 
-\textbf{
-```{r Alhquist2021}
-bib["ahlquist2021"]
+\begin{quote}
+Abstract: 
+```{r Ahlquist2021}
+cat(bib["Ahlquist2021"]$abstract)
 ```
-}
+\end{quote}
+
+*Summary:*
 
 The paper uses customs declarations to identify what RMG firms participate in the Accord on Building and Fire Safety and the Alliance for Worker Safety in Bangladesh. The authors find that only a small minority of shipments were delivered to firms that participated in the Alliance or the Accord. These tended to be firms with customer-facing brands, publicly traded companies and those that imported a large number of garments from Bangladesh. Firms headquartered in the U.S. were less likely to have signed on to either initiative but especially the European-based Accord.  
 
+One initial reaction I had to this paper was that we sort of already knew a lot of this. Would it have been possible to come up with a decent estimate of the percentage of imports by Accord and Alliance firms by looking at the sales volume of companies that are listed as signatories to either initiative? Maybe it would still be worth doing that to get a more global perspective. 
 
-\textbf{
+The article contains the most extensive lit. review on private governance initiatives imaginable. They dedicate two paragraphs pertain to explanations for why firms join private governance initiatives. Here are the explanations that they list:  
+
+1. Public sector regulatory quality and desire to avoid regulation; 
+2. Trade and investment (e.g. levels of participation in countries that constitute major trade and investment partners); 
+3. Characteristics of firms like larger firms and firms with a chief sustainability officer;
+4. Consumer pressure; 
+5. Contagion effects (other firms adopting environmental initiatives); 
+6. Pressure from the NGO sector; 
+7. National corporate cultures; 
+8. Public ownership status
+
+\bigbreak
+
+\fullcite{Anner2013}.
+
+\begin{quote}
+Abstract: 
 ```{r Anner2013}
-bib["anner2013"]
+cat(bib["Anner2013"]$abstract)
 ```
-}
+\end{quote}
+
+*Summary:*
 
 The article reviews the Accord on Fire and Building Safety in Bangladesh (the Accord) and argues that it represents a "new paradigm in the enforcement of global labor and human rights." The Accord is special because it recognizes the role of buyers (brands and retailers) in producing sweatshop conditions on the ground. Rather than simply monitoring compliance, the Accord forces brands to finance safety upgrades through a legally binding agreement. The authors make comparisons to "jobbers agreements" between workers, contractors and lead firms in the United States that were used to combat sweatshop conditions in the mid-20th century. 
 
@@ -71,12 +115,18 @@ There is a nice analysis of the relationship between prices paid to suppliers an
 
 One really nit-picky comment: it is the Accord on Fire and Building Safety in Bangladesh (not the "Accord on Building and Fire Safety in Bangladesh").
 
+\bigbreak
 
-\textbf{
+\fullcite{Bair2020}
+
+\begin{quote}
+Abstract: 
 ```{r Bair2020}
-bib["bair2020"]
+cat(bib["Bair2020"]$abstract)
 ```
-}
+\end{quote}
+
+*Summary:*
 
 The article looks at the success of two initiatives designed to improve worker health and safety in post-Rana Plaza Bangladesh: the Sustainability Compact and the Bangladesh Accord. The Accord was a progressive private regulatory initiative that emphasized co-governance between workers and employers as well as freedom of association and collective bargaining (FACB) rights. The Sustainability Compact was a public regulatory initiative that covered factories not included in the two major private regulatory initiatives in place (The Accord or the Alliance). 
 
@@ -89,7 +139,6 @@ The authors describe the Accord as "innovating co-governed private regulation." 
 The Compact required the Bangladesh government to reform its labor laws and to strengthen respect for FACB rights. The parliament approved Labor Law Bill 2013 which included major amendments to the 2006 Bangladesh Labor Act, but implementation was slow and enforcement lacking. Specifically, the government left in place restrictions on organizing in EPZs and required workers to organize 20% of the workers in a factory to achieve recognition (a high bar given the large size of factories). The government also made it difficult to achieve recognition in practice by continually rejecting valid applications. The Labor Law Bill also undermined the provisions of the Accord which called for direct election of workers to safety committees by leaving in place provisions that required safety committees to be appointed by Participation Committees (PCs), which are heavily influenced by management.   
 
 One important point the authors make is that many Bangladesh parliament members are garment manufacturers and the garment manufacturer's association (BGMEA) is incredibly powerful. It would be interesting to look at this cross-nationally--how the effectiveness of public or private regulation depends on the political influence of garment manufacturers, which would in turn be related to the size of the garment sector relative to a country's exports or GDP.   
-
 Ultimately the government and BGMEA went on the offensive against the Accord, dooming its future prospects. In may 2018, the High Court issued a restraining order against the Accord while the government and BGMEA demanded that the Accord to close its Bangladesh office. An MoU was signed that required the Accord to hand over its operations to government-run RMG Sustainability Council and also permitted BGMEA representatives to establish a presence in Accord offices to ensure a smooth transition.
 
 Note: According to [Wikipedia](https://en.wikipedia.org/wiki/Accord_on_Fire_and_Building_Safety_in_Bangladesh#2018_Transition_Key_Accord), the statutory body in charge of managing the Accord is called the "Bangladesh Coordination and Remediation Cell." 
@@ -98,20 +147,48 @@ Bair et. al.'s story makes sense, but one also wonders whether the Accord was re
 
 Subsequent to this research there was a major crackdown on unions that were protesting for a dollar-an-hour wage (see notes on WRC report below). 
 
+\bigbreak
 
-\textbf{
+\fullcite{Salminen2018}
+
+\begin{quote}
+Abstract: 
 ```{r Salminen2018}
-bib["salminen2018"]
+cat(bib["Salminen2018"]$abstract)
 ```
-}
+\end{quote}
+
+*Summary:*
+
+Two features make the Accord a unique private governance initiative: 1) it is a legally binding and enforceable agreement; and 2) it includes not just buyers but Bangladeshi and global trade unions. Specific provisions include: 
+
+- Disclosure of suppliers and inspections of these suppliers by independent experts; 
+- Public disclosure of inspection reports; 
+- Requiring suppliers to remedy safety issues identified in the reports; 
+- Paying suppliers prices that cover costs of repairs and renovations; 
+- Maintaining relationships with suppliers through length of program; 
+- Allowing democratically elected worker representatives into supplier factories to educate workers about workplace safety and worker rights; 
+- Giving workers the right to refuse to work in unsafe conditions 
+- Enabling workers to maintain income during factory downtime associated with renovations and repairs; 
+- Terminating relationships with suppliers who fail to comply with requirements of the Accord
+
+The Accord has been criticized for being narrow in scope (Anner et. al.), e.g. focusing only on worker safety and not fair labor conditions overall, and for a lack of efficiency. But there are clear examples in which the enforcement mechanism worked, including a $2.3 settlement in favor of workers. 
+
+One question I have is how the provisions of the Accord are working after the takeover of the government-run RMG sustainability councel, especially the independent inspections, enforcement, and allowing union representatives in factories to educate workers. 
 
 
+\bigbreak
 
-\textbf{
+\fullcite{Zajak2017}
+
+\begin{quote}
+Abstract: 
 ```{r Zajak2017}
-bib["zajak2017"]
+cat(bib["Zajak2017"]$abstract)
 ```
-}
+\end{quote}
+
+*Summary:*
 
 The article looks at how the Accord interacted with local unions in Bangladesh. It argues that although its mandate was health and safety, the Accord strengthened local unions in four key ways:
 
@@ -120,19 +197,22 @@ The article looks at how the Accord interacted with local unions in Bangladesh. 
 3) Claim reframing--sometimes violations outside of health and safety (such as bonus or termination of union leaders) can be reframed or linked to violations that are within the ambit of the Accord;
 4) Empowering organizers when they are attacked--this is the "shadow protection" provided by the Accord.
 
-However, Zajak notes that reliance on the Accord can also be a reason that union leaders are attacked because employers feel threatened by the power of external actors. Employers are also BMGEA members and have strong political connections to a government that is largely resistant to the provisions of the Accord.
+However, Zajak notes that reliance on the Accord can also be a reason that union leaders are attacked because employers feel threatened by the power of external actors. Employers are also BGMEA members and have strong political connections to a government that is largely resistant to the provisions of the Accord.
 
 The article also has a good description of union fragmentation and how it affects the structural power of organized labor. It also weighs the benefits of external support (finances, organizational resources, etc. ) against its perils (lack of incentives for building the organizational capacity of local unions). There is a good anecdote about IndustriALL Bangaldesh Council organizing local affiliates in Bangladesh. Union membership, however, is still quite low. Only three percent of factories are organized and many shut down when they are organized. 
 
+# The Effectiveness/Flaws of Private Regulatory Initiatives
 
+\fullcite{Anner2012}
 
-## The Effectiveness/Flaws of Private Regulatory Initiatives
-
-\textbf{
+\begin{quote}
+Abstract: 
 ```{r Anner2012}
-bib["anner2012"]
+cat(bib["Anner2012"]$abstract)
 ```
-}
+\end{quote}
+
+*Summary:*
 
 Anner argues that corporate-sponsored inspections focus primarily on minimal labor standards like workplace safety because they are concerned about protecting the damage to their reputations that could stem from violations of basic labor rights. But corporate-sponsored inspections tend to ignore Freedom of Association (FA) rights because allowing unions to operate would undermine corporate control over supply chains. Anner tests this argument by coding 805 factory audits by the [Fair Labor Association (FLA)](https://www.fairlabor.org/) that occurred between 2002 and 2010 and through an analysis of three case studies: Russell Athletic in Honduras; Apple (Foxconn) in China; and worker rights monitoring in Vietnam. 
 
@@ -144,13 +224,13 @@ According to Anner, "Labor unions are highly critical of most CSR initiatives, a
 
 Anner highlights two CSR programs in his review--[WRAP (Worldwide Responsible Apparel Production)](https://wrapcompliance.org/) and [FLA](https://www.fairlabor.org/). WRAP was founded by the [American Apparel and Footwear Association](https://www.aafaglobal.org/) and includes neither NGOs nor unions. The FLA does not include unions either but has a number of important anti-sweatshop NGOs on its board. The FLA is also one of the largest CSR programs in the garment sector. The FLA posts all of its factory audits [online](https://fla.fairfactories.org/web/Information/CustomReports/FactoriesReport) as part of its [transparency initiative](https://www.fairlabor.org/transparency). They also have a list of investigations initiated by third-party complaints, which are mainly by unions, as part of their [safeguards initiative](https://www.fairlabor.org/transparency/safeguards). 
 
-Eyeballing these FLA reports, it the number seems to have increased over the years. FLA randomly audits about 5% of its affiliate's factories each year. There are currently about 4,900 reports available on the website. Is it possible that the composition of the audits has also changed as well, perhaps in response to Anner's critiques? 
+Eyeballing these FLA reports, the number of audits seems to have increased over the years. FLA randomly audits about 5% of its affiliate's factories each year. There are currently about 4,900 reports available on the website. Has the composition of the audits has also changed as well, perhaps in response to Anner's critiques, or do audits still mostly focus on the most basic labor standards? 
 
-Starting on p. 615 Anner provides an interesting history of the formation of the FLA and how a living wage, independent monitoring and FA rights were considered but rejected by corporations and how unions walked abandoned the agreement as a result. 
+Starting on p. 615 Anner provides an interesting history of the formation of the FLA and how a living wage, independent monitoring and FA rights were considered but rejected by corporations and how unions (UNITE) abandoned the agreement as a result. 
 
-In his analysis of FLA audits, Anner finds that FA rights violations constitute a small minority of reported violations. The bulk of violations fall into the categories of wages and benefits (31%) or health and safety (40%). FA violations constitute just 5% of reported violations. Forced and child labor constitute 7% and discrimination and harassment 9%. The remaining 8% of violations fall into the category of "code awareness."     
+In his analysis of FLA audits, Anner finds that FA rights violations constitute a small minority of reported violations. The bulk of violations fall into the categories of wages and benefits (31%) or health and safety (40%). FA violations constitute just 5% of reported violations. Forced and child labor constitute 7% and discrimination and harassment 9%. The remaining 8% of violations fall into the category of "code awareness."   
 
-Anner reasons that the small number of violations cannot reflect reality given the high level of FA rights violations reported in other sources, like the CIRI and Kucera labor rights indexes or state department reports highlighting violations in particular countries. There is also a disconnect between violations reported by third-parties and the audit reports as well as a seeming reluctance to investigate FA violations reported by third parties (who are mainly unions). Of third-party complaints, FA violations constitute 32% of all reported violations and wages, health and safety 13% and wages, benefits and hours 27%. 
+Anner reasons that the small number of violations cannot reflect reality given the high level of FA rights violations reported in other sources, like the CIRI and Kucera labor rights indexes or state department reports highlighting violations in particular countries. There is also a disconnect between violations reported by third-parties and the audit reports as well as a seeming reluctance to investigate FA violations reported by third parties (who are mainly unions). Of third-party complaints, FA violations constitute 32% of all reported violations and wages, health and safety 13%, and wages, benefits and hours 27%. 
 
 **Russell Athletic case study**: Russell Athletic closed a factory in Honduras and claimed the closure was due to a decline in demand for fleece products. Two auditors hired by the company found no written evidence that the company closed the factory due to union activity and placed the burden of proof on the workers in violation of ILO standards. An ILO consultant, however, found substantial evidence of anti-union activity and concluded that the closure was indeed a response to unionization. FLA dismissed the work of this consultant and found in favor of Russell Athletic. Subsequently, pressure from activists and universities forced FLA and Russell Athletic to reverse course by reopening the factory, rehiring the workers and placing Russell Athletic under review. 
 
@@ -160,12 +240,60 @@ Anner reasons that the small number of violations cannot reflect reality given t
 
 Anner discusses the Workers Rights Consortium (WRC) as an alternative to FLA. The WRC was formed by unions and NGOs that left the FLA following its refusal to incorporate FA rights. The WRC relies on third-party complaints and finds a much higher level of FA rights violations in factories that it audits, but it has a lot fewer resources that FLA. 
 
+\bigbreak 
 
-\textbf{
-```{r Locke2007}
-bib["locke2007"]
+\fullcite{Baron2003}
+
+\begin{quote}
+Abstract: 
+```{r Baron2003}
+cat(bib["Baron2003"]$abstract)
 ```
-}
+\end{quote}
+
+*Summary:*
+
+The article discusses four models of private politics: 
+
+Includes an informative description of the Fair Labor Association model (Figure 1, p. 38): 
+
+- Representation
+  - 12 companies including Nike, 21 NGOs
+    - six board seats for each group
+  - 170 college and university affiliates
+    - three board seats
+    - 982 companies (university licensees) had applied to be affiliates at the time this was written
+  - chair
+    - one seat
+- Code governing workplace practices
+  - 60 hour week
+  - minimum wage/market wage (but no living wage)
+  - children at least 15 unless host government allows 14
+  - right to form unions
+- Procedures
+  - supermajority to change code (both sides can block changes)
+  - supermajority for selecting chair
+- Independent monitoring and inspection of factories
+  - Companies select the monitor from an FLA accredited list
+  - 30% of factories for initial 2 to 3 years; 10% annually thereafter
+  - Companies are to monitor each facility annually
+- Requires a plan to correct deficiencies
+- Reports publicly on monitoring/inspections with majority approval 
+
+Nike went above FLA standards by adopting more stringent measures including not hiring anyone under 18, meeting U.S. air quality standards in its factories, ending use of PVCs in its shoes and establishing educational programs for workers in its factories. 
+
+\bigbreak
+
+\fullcite{Locke2007}
+
+\begin{quote}
+Abstract: 
+```{r Locke2007}
+cat(bib["Locke2007"]$abstract)
+```
+\end{quote}
+
+*Summary:*
 
 This is a study of Nike supplier audits. Looking primarily at the company's management audits (M-Audits) the study finds that rule of law, size of the factory, the length and extent of the relationship with Nike, region and whether the supplier is a footwear manufacturer are important predictors of audit scores. The study also finds that among the suppliers that were audited more than once, 80% experienced no change or worsened over time. 
 
@@ -175,11 +303,18 @@ The review of the debates over monitoring and labor standards is pretty informat
 - Whether auditors are trustworthy and effective; 
 - Whether the proliferation of codes of conduct undermines their effectiveness
 
-\textbf{
+\bigbreak 
+
+\fullcite{Locke2009}
+
+\begin{quote}
+Abstract: 
 ```{r Locke2009}
-bib["locke2009"]
+cat(bib["Locke2009"]$abstract)
 ```
-}
+\end{quote}
+
+*Summary:*
 
 The authors identify three assumptions associated with the traditional compliance model:
   
@@ -193,11 +328,18 @@ The authors advocate a "commitment" approach to improving labor standards and pr
 
 One interesting statement the authors make is that the compliance model works for some minimal standards like health and safety but is not well-suited to enhancing FACB rights. 
 
-\textbf{
+\bigbreak 
+
+\fullcite{Locke2010}
+
+\begin{quote}
+Abstract: 
 ```{r Locke2010}
-bib["locke2010"]
+cat(bib["Locke2010"]$abstract)
 ```
-}
+\end{quote}
+
+*Summary:*
 
 This paper compares two Nike suppliers in Mexico. The authors present the study as a most similar systems in which the two factories operate in a very similar legal and cultural context but have different industrial relations outcomes (which are mainly measured by wages and job satisfaction). The management in Factory A encourages industrial democracy and has a good relationship with the union, holds regular meetings with workers, and deals with employee complaints in a fair and anonymous manner. The management in Factory B is more top-down in its approach, avoids interacting with the union and publicly humiliates employees when they offer suggestions.
 
@@ -205,18 +347,33 @@ The authors do not discuss the identity of the owners of Factory A, but Factory 
 
 The main contribution offered by the paper is to highlight the importance of management and industrial organization for the effective implementation of labor standards. Unfortunately there is little discussion of codes of conduct and monitoring. The results would be more convincing if they incorporated data from audits/inspections. 
 
-\textbf{
-```{r Locke2013}
-bib["locke2013"]
+\bigbreak 
+
+\fullcite{Locke2013a}
+
+\begin{quote}
+Abstract: 
+```{r Locke2013a}
+cat(bib["Locke2013a"]$abstract)
 ```
-}
+\end{quote}
+
+*Summary:*
 
 The article compares Hewlett-Packard (HP) suppliers in Mexico and the Czech Republic to illuminate how public and private regulation interact. The main finding is that local contextual factors result in complimentarity in some instances and a more contradictory relationship in others. In Mexico, private regulatory initiatives substituted for the absence of effective public regulation but private and public regulation were more complementary with respect to environmental standards. In the Czech Republic, public and private regulation complemented each other in both arenas.
 
-\textbf{
-```{r Locke2013a}
-bib["locke2013a"]
+\bigbreak
+
+\fullcite{Locke2013b}
+
+\begin{quote}
+Abstract: 
+```{r Locke2013b}
+cat(bib["Locke2013b"]$abstract)
 ```
-}
+\end{quote}
+
+*Summary:*
+
 
 
