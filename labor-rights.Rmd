@@ -2,15 +2,16 @@
 title: "Labor Rights and Global Supply Chains"
 subtitle: "An Annotated Bibliography"
 author: "Emmanuel Teitelbaum"
-geometry: margin = 1in
+date: "`r format(Sys.time(), '%B %d, %Y')`"
 output: 
   pdf_document:
     citation_package: biblatex
 biblatexoptions: [backend = biber, skipbib = true, labeldateparts = true, isbn = false, annotation = false, url = false, date = year]
 biblio-style: chicago-authordate
 bibliography: labor-rights.bib
-urlcolor: blue
+geometry: margin = 1in
 fontsize: 12pt
+urlcolor: blue
 header-includes: 
   - \usepackage[american]{babel}
 ---
@@ -24,7 +25,6 @@ bib <- ReadBib("labor-rights.bib", check=FALSE)
 # Interaction of Private and Public Regulation
 
 \fullcite{Amengual2010}
-
 \begin{quote}
 Abstract: 
 ```{r Amengual2010}
@@ -43,9 +43,7 @@ Additionally, private inspections freed up time and resources for the SET so tha
 However, the analysis also uncovers differential impact of private versus SET inspections.Factory owners were more likely to respond to demands by the buyer to address health and safety violations because the threat of losing the buyer's business was more compelling than the meager fine imposed by the labor inspectorate. The company rarely cut ties with a producer but effectively used pedagogy (training) to improve compliance.  
 
 \bigbreak
-
 \fullcite{Amengual2016}
-
 \begin{quote}
 Abstract: 
 ```{r Amengual2016}
