@@ -96,7 +96,7 @@ cat(bib["Anner2013"]$abstract)
 
 *Summary:*
 
-The article reviews the Accord on Fire and Building Safety in Bangladesh (the Accord) and argues that it represents a "new paradigm in the enforcement of global labor and human rights." The Accord is special because it recognizes the role of buyers (brands and retailers) in producing sweatshop conditions on the ground. Rather than simply monitoring compliance, the Accord forces brands to finance safety upgrades through a legally binding agreement. The authors make comparisons to "jobbers agreements" between workers, contractors and lead firms in the United States that were used to combat sweatshop conditions in the mid-20th century. 
+The article reviews the Accord on Fire and Building Safety in Bangladesh (the Accord) and argues that it represents a "new paradigm in the enforcement of global labor and human rights." The Accord is special because it recognizes the role 111111111111of buyers (brands and retailers) in producing sweatshop conditions on the ground. Rather than simply monitoring compliance, the Accord forces brands to finance safety upgrades through a legally binding agreement. The authors make comparisons to "jobbers agreements" between workers, contractors and lead firms in the United States that were used to combat sweatshop conditions in the mid-20th century. 
 
 The authors argue that the root cause of sweatshops are the sprawling subcontracting networks that have been created and maintained by lead firms. They state that "labor violations are not simply a factory-level problem that can be corrected by improved compliance monitoring; they are a pervasive and predictable outcome in an industry dominated by lead firms whose business model is predicated on outsourcing apparel production via highly flexible, volatile, and cost-sensitive subcontracting networks" (p. 3). Consequently, any viable plan for elminating sweatshops has to address the "root cause" of labor violations, which they believe is "to be found in the
 sourcing practices of the brands and retailers that coordinate these supply chains." 
@@ -137,6 +137,7 @@ The authors describe the Accord as "innovating co-governed private regulation." 
 The Compact required the Bangladesh government to reform its labor laws and to strengthen respect for FACB rights. The parliament approved Labor Law Bill 2013 which included major amendments to the 2006 Bangladesh Labor Act, but implementation was slow and enforcement lacking. Specifically, the government left in place restrictions on organizing in EPZs and required workers to organize 20% of the workers in a factory to achieve recognition (a high bar given the large size of factories). The government also made it difficult to achieve recognition in practice by continually rejecting valid applications. The Labor Law Bill also undermined the provisions of the Accord which called for direct election of workers to safety committees by leaving in place provisions that required safety committees to be appointed by Participation Committees (PCs), which are heavily influenced by management.   
 
 One important point the authors make is that many Bangladesh parliament members are garment manufacturers and the garment manufacturer's association (BGMEA) is incredibly powerful. It would be interesting to look at this cross-nationally--how the effectiveness of public or private regulation depends on the political influence of garment manufacturers, which would in turn be related to the size of the garment sector relative to a country's exports or GDP.   
+
 Ultimately the government and BGMEA went on the offensive against the Accord, dooming its future prospects. In may 2018, the High Court issued a restraining order against the Accord while the government and BGMEA demanded that the Accord to close its Bangladesh office. An MoU was signed that required the Accord to hand over its operations to government-run RMG Sustainability Council and also permitted BGMEA representatives to establish a presence in Accord offices to ensure a smooth transition.
 
 Note: According to [Wikipedia](https://en.wikipedia.org/wiki/Accord_on_Fire_and_Building_Safety_in_Bangladesh#2018_Transition_Key_Accord), the statutory body in charge of managing the Accord is called the "Bangladesh Coordination and Remediation Cell." 
@@ -174,6 +175,9 @@ The Accord has been criticized for being narrow in scope (Anner et. al.), e.g. f
 
 One question I have is how the provisions of the Accord are working after the takeover of the government-run RMG sustainability councel, especially the independent inspections, enforcement, and allowing union representatives in factories to educate workers. 
 
+The Alliance claimed to be legally binding, but only enabled the organization to seek arbitration against members who fail to live up to the obligations of the agreement. The Alliance was criticized for not requiring monetary contributions, for lacking enforcement provisions and for the fact that it fails to incorporate workers into its governance structure. The Alliance even includes noncommittal language preventing members of the Alliance from suing each other. 
+
+The rest of the article gets into finegrained details of contract as it applies to liability in corporate supply chains. 
 
 \bigbreak
 
@@ -197,7 +201,7 @@ The article looks at how the Accord interacted with local unions in Bangladesh. 
 
 However, Zajak notes that reliance on the Accord can also be a reason that union leaders are attacked because employers feel threatened by the power of external actors. Employers are also BGMEA members and have strong political connections to a government that is largely resistant to the provisions of the Accord.
 
-The article also has a good description of union fragmentation and how it affects the structural power of organized labor. It also weighs the benefits of external support (finances, organizational resources, etc. ) against its perils (lack of incentives for building the organizational capacity of local unions). There is a good anecdote about IndustriALL Bangaldesh Council organizing local affiliates in Bangladesh. Union membership, however, is still quite low. Only three percent of factories are organized and many shut down when they are organized. 
+The article also has a good description of union fragmentation and how it affects the structural power of organized labor. It also weighs the benefits of external support (finances, organizational resources, etc. ) against its perils (lack of incentives for building the organizational capacity of local unions). There is a good anecdote about IndustriALL Bangladesh Council organizing local affiliates in Bangladesh. Union membership, however, is still quite low. Only three percent of factories are organized and many shut down when they are organized. 
 
 # The Effectiveness/Flaws of Private Regulatory Initiatives
 
@@ -226,7 +230,7 @@ Eyeballing these FLA reports, the number of audits seems to have increased over 
 
 Starting on p. 615 Anner provides an interesting history of the formation of the FLA and how a living wage, independent monitoring and FA rights were considered but rejected by corporations and how unions (UNITE) abandoned the agreement as a result. 
 
-In his analysis of FLA audits, Anner finds that FA rights violations constitute a small minority of reported violations. The bulk of violations fall into the categories of wages and benefits (31%) or health and safety (40%). FA violations constitute just 5% of reported violations. Forced and child labor constitute 7% and discrimination and harassment 9%. The remaining 8% of violations fall into the category of "code awareness."   
+In his analysis of FLA audits, Anner finds that FA rights violations constitute a small minority of reported violations. The bulk of violations fall into the categories of wages and benefits (31%) or health and safety (40%). FA violations constitute just 5% of reported violations. Forced and child labor constitute 7% and discrimination and harassment 9%. The remaining 8% of violations fall into the category of "code awareness." 
 
 Anner reasons that the small number of violations cannot reflect reality given the high level of FA rights violations reported in other sources, like the CIRI and Kucera labor rights indexes or state department reports highlighting violations in particular countries. There is also a disconnect between violations reported by third-parties and the audit reports as well as a seeming reluctance to investigate FA violations reported by third parties (who are mainly unions). Of third-party complaints, FA violations constitute 32% of all reported violations and wages, health and safety 13%, and wages, benefits and hours 27%. 
 
@@ -240,8 +244,41 @@ Anner discusses the Workers Rights Consortium (WRC) as an alternative to FLA. Th
 
 \bigbreak 
 
-\fullcite{Baron2003}
+\fullcite{Anner2017}
+\begin{quote}
+Abstract: 
+```{r Anner2017}
+cat(bib["Anner2017"]$abstract)
+```
+\end{quote}
 
+**Summary**
+
+The article looks at two social compliance programs in labor-repressive countries: the Fair Labor Association (FLA) in El Salvador and the ILO's Better Work program in Vietnam. In El Salvador the government has a history of brutally repressing labor and fewer than one percent of workers in the apparel sector are organized. In Vietnam, 60% of workers are unionized, but these unions are tied to the Communist Party of Vietnam. The two programs are similar in many ways, but the FLA follows an auditing (spot-check) model whereas regularly reviews every factor that signs up for its program. The study was conducted between 2011 and 2014. 
+
+In El Salvador, the FLA has been ineffective in addressing reports of FoA violations because FLA inspectors are not trained as FoA specialists and because the broader political context militates against remediation. In one factory, the same set of FoA violations were reported over a period of 10 years but were never fully addressed. In another factory, the management threatened the lives of union members and the state never investigated the threats. 
+
+Anner notes that "under a normal ILO approach, if a trade union is determined to not be independent of the state and/or the employers, then that union cannot be assumed to conduct proper collective bargaining." Initially, the Better Work program adhered to this logic in Veitnam and held that a factory was not in compliance if workers were not able to join an independent union. In 2014, however, it modified its approach. Now it still codes factories as non-compliant if workers cannot have an independent union but it places a big asterisk next to these data stating that "freedom to associate is a national issue, and Better Works is not a state entity capable of addressing this issue through its program" (p. 63). 
+
+
+
+\bigbreak
+
+\fullcite{Anner2020}
+\begin{quote}
+Abstract: 
+```{r Anner2020}
+cat(bib["Anner2020"]$abstract)
+```
+\end{quote}
+
+**Summary**
+
+
+\bigbreak
+
+
+\fullcite{Baron2003}
 \begin{quote}
 Abstract: 
 ```{r Baron2003}
@@ -254,7 +291,6 @@ cat(bib["Baron2003"]$abstract)
 The article discusses four models of private politics: 
 
 Includes an informative description of the Fair Labor Association model (Figure 1, p. 38): 
-
 - Representation
   - 12 companies including Nike, 21 NGOs
     - six board seats for each group
