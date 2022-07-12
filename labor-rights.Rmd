@@ -254,13 +254,11 @@ cat(bib["Anner2017"]$abstract)
 
 **Summary**
 
-The article looks at two social compliance programs in labor-repressive countries: the Fair Labor Association (FLA) in El Salvador and the ILO's Better Work program in Vietnam. In El Salvador the government has a history of brutally repressing labor and fewer than one percent of workers in the apparel sector are organized. In Vietnam, 60% of workers are unionized, but these unions are tied to the Communist Party of Vietnam. The two programs are similar in many ways, but the FLA follows an auditing (spot-check) model whereas regularly reviews every factor that signs up for its program. The study was conducted between 2011 and 2014. 
+The article looks at two social compliance programs in labor-repressive countries: the Fair Labor Association (FLA) in El Salvador and the ILO's Better Work program in Vietnam. In El Salvador, the government has a history of brutally repressing labor and fewer than one percent of workers in the apparel sector are organized. In Vietnam, 60% of workers are unionized, but these unions are tied to and tightly controlled by the Communist Party of Vietnam. The two programs are similar in many ways, but the FLA follows an auditing (spot-check) model whereas regularly reviews every factor that signs up for its program. The study was conducted between 2011 and 2014. 
 
-In El Salvador, the FLA has been ineffective in addressing reports of FoA violations because FLA inspectors are not trained as FoA specialists and because the broader political context militates against remediation. In one factory, the same set of FoA violations were reported over a period of 10 years but were never fully addressed. In another factory, the management threatened the lives of union members and the state never investigated the threats. 
+In El Salvador, the FLA has been ineffective in addressing reports of FoA violations because FLA inspectors are not trained as FoA specialists and because the broader political context militates against remediation. In one factory, the same set of FoA violations were reported over a period of 10 years but never fully addressed. In another factory, the management threatened the lives of union members and the government never investigated the threats. 
 
-Anner notes that "under a normal ILO approach, if a trade union is determined to not be independent of the state and/or the employers, then that union cannot be assumed to conduct proper collective bargaining." Initially, the Better Work program adhered to this logic in Veitnam and held that a factory was not in compliance if workers were not able to join an independent union. In 2014, however, it modified its approach. Now it still codes factories as non-compliant if workers cannot have an independent union but it places a big asterisk next to these data stating that "freedom to associate is a national issue, and Better Works is not a state entity capable of addressing this issue through its program" (p. 63). 
-
-
+Anner notes that "under a normal ILO approach, if a trade union is determined to not be independent of the state and/or the employers, then that union cannot be assumed to conduct proper collective bargaining." Initially, the Better Work program adhered to this logic in Veitnam and held that a factory was not in compliance if workers were not able to join an independent union. In 2014, however, it modified its approach. Now it still codes factories as non-compliant if workers cannot have an independent union but it places an asterisk next to these data stating that "freedom to associate is a national issue, and Better Works is not a state entity capable of addressing this issue through its program" (p. 63). 
 
 \bigbreak
 
@@ -274,9 +272,15 @@ cat(bib["Anner2020"]$abstract)
 
 **Summary**
 
+Anner counters the perception that a movement from an assembly model of production to full package production (in which suppliers source their own fabric) has led to a decline in the power imbalance between buyers and suppliers in the garment industry. Anner argues that over the last two decades, garment factories have faced a "sourcing squeeze" and a price squeeze. The sourcing squeeze relates to shorter lead times associated with the rise of "fast fashion" while the price squeeze is attributable to increasing monopsony power of an ever-smaller number of large buyers (oligopsony). 
+
+The sourcing and pricing squeeze have in turn been driven by three key trends. The first is increasing product-market competition resulting from the phasing out of the Multi-Fiber Arrangement (MFA) and the accession of China and Vietnam to the WTO. The second is technology (e.g. barcodes and scanning) and related improvements in supply-chaing management. The third relates to "financialization" and the fact that firms are experiencing ever more pressure to deliver profits by their investors.  
+
+Anner collects data from OTEXA to show the declining price of garments. He does not deflate them for some reason, which leads to understated trends in the graphs. He also includes survey data from Bangladesh, which shows a steep drop in prices for different types of garments sourced from Bangladesh. The final step of the analysis is to relate these trends in prices to trends in labor rights in Bangladesh. Here Anner uses data from the Center for Global Workers' Rights [Labor Rights Indicators](https://www.dept.psu.edu/liberalarts/WorkersRights/) developed by Kucera and Sari and relates it to changes in the price of trousers.    
+
+It would be really cool to do a post/visualization which periodically updated the garment price data. Does OTEXA have an API? (A quick look at their website shows all data posted as .html; would need to request data or scrape it.) 
 
 \bigbreak
-
 
 \fullcite{Baron2003}
 \begin{quote}

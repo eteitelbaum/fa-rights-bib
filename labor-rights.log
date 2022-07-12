@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.31)  11 JUL 2022 15:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.31)  12 JUL 2022 10:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -702,11 +702,11 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 395.
 (c:/Users/emman/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [7] [8] [9] [10] [11] [12] [13] [14] [15] [16]
+) [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17]
 
-LaTeX Warning: Empty bibliography on input line 847.
+LaTeX Warning: Empty bibliography on input line 882.
 
-[17] (./labor-rights.aux)
+[18] (./labor-rights.aux)
 Package rerunfilecheck Info: File `labor-rights.out' has not changed.
 (rerunfilecheck)             Checksum: F02BDF5ED88FECA026A78F4FDE6537AC;814.
 Package logreq Info: Writing requests to 'labor-rights.run.xml'.
@@ -714,18 +714,18 @@ Package logreq Info: Writing requests to 'labor-rights.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21332 strings out of 480253
- 384221 string characters out of 5892690
- 1331274 words of memory out of 5000000
+ 21333 strings out of 480253
+ 384228 string characters out of 5892690
+ 1330274 words of memory out of 5000000
  38954 multiletter control sequences out of 15000+600000
  516527 words of font info for 68 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  60i,6n,68p,2296b,1739s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/Users/emman/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{c:/Users/emman/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}<c:/Users/emman/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/Users/emman/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/Users/emman/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/Users/emman/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb>
-Output written on labor-rights.pdf (17 pages, 163917 bytes).
+Output written on labor-rights.pdf (18 pages, 166292 bytes).
 PDF statistics:
- 194 PDF objects out of 1000 (max. 8388607)
- 164 compressed objects within 2 object streams
- 52 named destinations out of 1000 (max. 500000)
+ 199 PDF objects out of 1000 (max. 8388607)
+ 168 compressed objects within 2 object streams
+ 53 named destinations out of 1000 (max. 500000)
  25 words of extra memory for PDF output out of 10000 (max. 10000000)
 
